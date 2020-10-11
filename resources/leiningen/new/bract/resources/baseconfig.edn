@@ -1,0 +1,3 @@
+{;; config files to inherit entries from
+ "parent.filenames"    []
+ }

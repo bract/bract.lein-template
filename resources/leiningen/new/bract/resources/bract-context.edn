@@ -1,0 +1,20 @@
+{;; any context files to inherit entries from
+ "parent.filenames"       []
+
+ :bract.core/config-files ["baseconfig.edn"]  ; fall back to baseconfig.edn if config file is unspecified
+
+ :bract.core/inducers  [(bract.core.inducer/run-context-inducers :app/cfg-inducers)
+                        (bract.core.inducer/run-context-inducers :app/run-inducers)
+                        (bract.core.inducer/run-context-inducers :app/dev-inducers)
+                        bract.core.inducer/set-default-exception-handler]
+
+ :app/cfg-inducers     [bract.core.inducer/discover-hostname
+                        bract.core.inducer/discover-project-edn-version
+                        bract.core.inducer/read-config]
+
+ :app/run-inducers     [(clojure.core/assoc :bract.core/launch? true)]
+ :app/dev-inducers     []
+
+ :bract.core/launchers [bract.core.inducer/add-shutdown-hook
+                        {{name}}.core/launch]
+ }

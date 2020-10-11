@@ -1,0 +1,7 @@
+{;; inherit everything from bract-context.edn
+ "parent.filenames"  ["bract-context.edn"]
+
+ ;; override entries for DEV mode
+ :app/run-inducers []
+ :app/dev-inducers  [bract.core.dev/record-context!]
+ }
