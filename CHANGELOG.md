@@ -8,9 +8,10 @@ None
 ## [WIP] 0.1.0 / 2020-October-??
 
 - Application
-  - Bract configuration
+  - Bract context
   - Standard (uberjar) and config file
   - Initialization namespace
+  - Auto-discovered app version and hostname
 - Lifecycle
   - Add shutdown hook
   - Add global exception handler

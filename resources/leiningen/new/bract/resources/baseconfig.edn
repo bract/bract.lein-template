@@ -1,3 +1,13 @@
 {;; config files to inherit entries from
  "parent.filenames"    []
+
+ ;; --- app information ---
+
+ ;; app.version - value of :version key in project.edn file in classpath
+ "default.app.version"  "unknown"
+ "app.version"          "${discovered.app.version|default.app.version}"
+
+ ;; host name - env var HOST_NAME, or HOSTNAME (Linux), or HOST (OSX), or COMPUTERNAME (Windows)
+ "default.app.hostname" "localhost"
+ "app.hostname"         "${HOST_NAME|HOSTNAME|HOST|COMPUTERNAME|discovered.hostname|default.app.hostname}"
  }
