@@ -15,6 +15,6 @@
  :app/run-inducers     [(clojure.core/assoc :bract.core/launch? true)]
  :app/dev-inducers     []
 
- :bract.core/launchers [bract.core.inducer/add-shutdown-hook
+ :bract.core/launchers [;; bract.core.inducer/add-shutdown-hook  ; uncomment only if required
                         {{name}}.core/launch]
  }
