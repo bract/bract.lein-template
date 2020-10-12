@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.0 / 2020-October-??
+## 0.1.0-alpha1 / 2020-October-13
 
 - Application
   - Bract context
