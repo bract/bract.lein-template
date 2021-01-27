@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :resource-paths ["resources" "target/generated/resources"]  ; see :project-edn entry
   :pedantic?    :warn
-  :dependencies [[org.clojure/clojure "1.10.1"]
+  :dependencies [[org.clojure/clojure "1.10.2"]
                  [bract/bract.core "0.6.2-alpha3"]]
   :target-path "target/%s"
   :plugins [[lein-project-edn "0.2.0"]]
