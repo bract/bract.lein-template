@@ -5,7 +5,7 @@
 None
 
 
-## [WIP] 0.1.0-beta1 / 2021-January-??
+## 0.1.0-beta1 / 2021-January-28
 
 - Bump Clojure version to 1.10.2
 - Bump bract.core version to 0.6.2-beta2

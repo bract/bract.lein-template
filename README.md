@@ -4,7 +4,7 @@ A Leiningen template to create [Bract](https://bract.github.io) applications. Th
 application is minimal but can be easily extended either with Bract modules or with inducers.
 
 
-Latest version (on Clojars): `0.1.0-alpha1`
+Latest version (on Clojars): `0.1.0-beta1`
 
 
 ### Out of the box features
@@ -32,7 +32,7 @@ cd <project-name>
 
 ## License
 
-Copyright © 2020 Shantanu Kumar (kumar.shantanu@gmail.com)
+Copyright © 2020-2021 [Shantanu Kumar](https://github.com/kumarshantanu)
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
