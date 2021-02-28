@@ -5,6 +5,12 @@
 None
 
 
+## [WIP] 0.1.0 / 2021-February-??
+
+- [Todo] Bump Clojure version to 1.10.3
+- Use Bract 0.6.2 modules
+
+
 ## 0.1.0-beta1 / 2021-January-28
 
 - Bump Clojure version to 1.10.2
