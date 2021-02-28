@@ -22,9 +22,13 @@ lein do clean, uberjar
 java -jar {{name}}-0.1.0-SNAPSHOT-standalone.jar -vf config/config.edn
 ```
 
+The `-v` flag enables verbose mode - you can turn it off by specifying only `-f config/config.edn` in the CLI.
+
 ### REPL support
 
-Start the REPL using `lein repl` command, which drops you into the `bract.core.dev` namespace.
+Start the REPL using `lein repl` command, which drops you into the `bract.dev.repl` namespace.
+
+In the REPL you can run `(help)` command to see help.
 
 ### Running tests
 
