@@ -4,7 +4,7 @@ A Leiningen template to create [Bract](https://bract.github.io) applications. Th
 application is minimal but can be easily extended either with Bract modules or with inducers.
 
 
-Latest version (on Clojars): `0.1.0-beta1`
+Latest version (on Clojars): `0.1.0`
 
 
 ### Out of the box features
@@ -19,6 +19,8 @@ Latest version (on Clojars): `0.1.0-beta1`
 
 - [bract.core](https://github.com/bract/bract.core)
   - [Keypin](https://github.com/kumarshantanu/keypin) for configuration files
+- [bract.dev](https://github.com/bract/bract.dev) in DEV mode only
+  - [org.clojure/tools.namespace](https://github.com/clojure/tools.namespace) for "reloaded" REPL workflow
 
 
 ## Usage
