@@ -4,7 +4,7 @@ A Leiningen template to create [Bract](https://bract.github.io) applications. Th
 application is minimal but can be easily extended either with Bract modules or with inducers.
 
 
-Latest version (on Clojars): `0.1.0`
+Latest version (on Clojars): `0.1.1`
 
 
 ### Out of the box features

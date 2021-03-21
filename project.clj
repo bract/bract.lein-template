@@ -1,4 +1,4 @@
-(defproject bract/lein-template "0.1.1-SNAPSHOT"
+(defproject bract/lein-template "0.1.1"
   :description "A Leiningen template to create applications using the Bract framework"
   :url "https://github.com/bract/bract.lein-template"
   :license {:name "Eclipse Public License"
